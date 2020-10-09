@@ -20,7 +20,7 @@ function App() {
             component={Success}
           />
           <Route
-            render={()=> <div>fuck the monde what is the fucking router man</div>}
+            render={()=> <div>this page not valid</div>}
           />
         </Switch>
       </Router>

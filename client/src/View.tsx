@@ -288,7 +288,11 @@ class View extends React.Component<{}, AppState> {
     }
 
     if (this.state.redirection) {
-      return <Redirect to='/success' />;
+      return <Redirect to={{
+        pathname: '/success',
+        state: { property_id: 'property id'}
+      }}
+      />;
     }
 
     return (
