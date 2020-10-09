@@ -1,0 +1,19 @@
+{
+  "name": "arsela",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/react-router-dom": "^5.1.6",
+    "concurrently": "^5.3.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "client": "cd client && npm run start",
+    "server": "cd server && npm run start",
+    "start": "concurrently \" npm run client \" \"npm run server\""
+  },
+  "author": "",
+  "license": "ISC"
+}
